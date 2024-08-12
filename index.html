@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrify</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <nav>
+    <div class="navbar">
+        <div id = "logo">NUTRIFY</div>
+        <div id = "diet-plans"><a href = "#">Diet Plans</a></div>
+        <input type="input" id = "search" placeholder="What's in your fridge?">
+        <button id = "inputButton">Search</button>
+        
+    </div>
+    </nav>
+    <main>
+        <div id="main">
+        <div id = "container">
+            <img id="img" src = "home.jpg">
+            <p id = "textContainer">Get your own recipes and <br> 
+                            diet charts based on your needs!</p>
+        </div>
+        <div class = "details">
+        <div class = "nutrientInformation">
+            <p id = "nutrientBoxHeading">Keep your calories and nutrients in track</p>
+            <input type = "input" id = "nutrientSearch" placeholder="Search for Nutrient Information">
+            <button id = "nutrientInputButton">Search</button>
+            <div id="information"></div>
+        </div>
+        <div class = "dietChartInformation">
+            <p id = "dietChartHeading">Get your diet chart based on diet requirements</p>
+            <input type = "input" id = "dietSpecs" placeholder="Enter your diet type">
+            <input type = "input" id = "calories" placeholder="Enter your calorie intake">
+            <button id = "dietChartButton">Search</button>
+            <div id = "dietPlan"></div>
+        </div>
+        </div>
+    </div>
+    </main>
+    
+    <script src="app.js"></script>
+</body>
+</html>
